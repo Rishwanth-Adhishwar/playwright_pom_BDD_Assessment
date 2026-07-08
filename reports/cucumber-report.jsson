@@ -1,0 +1,498 @@
+[
+  {
+    "description": "Description:As a new user,I want register an account in Demo Web Shop Website with valid and invalid Credentials",
+    "elements": [
+      {
+        "description": "",
+        "id": "rishwanth_08_07_2026-login-feature-of-demo-webshop-website;to-check-login-functionality-of-demo-web-shop-with-valid-credentials",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "To Check Login Functionality of Demo Web Shop With valid Credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 65777300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "The User is in Launch Page Of DemoWebShop Website",
+            "match": {
+              "location": "src\\test\\stepDefinitions\\register.step.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2433956299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "The User Clicks on Login Link",
+            "match": {
+              "location": "src\\test\\stepDefinitions\\login.step.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 363201500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "The User Enter a valid Email",
+            "match": {
+              "location": "src\\test\\stepDefinitions\\login.step.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 35835900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "The User Enters a valid Password",
+            "match": {
+              "location": "src\\test\\stepDefinitions\\login.step.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9940399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "The User Clicks a Login Button",
+            "match": {
+              "location": "src\\test\\stepDefinitions\\login.step.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 615025299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "The User Should Be Successfully logged In",
+            "match": {
+              "location": "src\\test\\stepDefinitions\\login.step.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 30139200
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 9270599
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login",
+            "line": 1
+          },
+          {
+            "name": "@Rishwanth",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "rishwanth_08_07_2026-login-feature-of-demo-webshop-website;to-check-login-functionality-of-demo-web-shop-with-invalid-credentials",
+        "keyword": "Scenario Outline",
+        "line": 23,
+        "name": "To Check Login Functionality of Demo Web Shop With invalid Credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 60205300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "The User is in Launch Page Of DemoWebShop Website",
+            "match": {
+              "location": "src\\test\\stepDefinitions\\register.step.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2667840099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "The User Clicks on Login Link",
+            "match": {
+              "location": "src\\test\\stepDefinitions\\login.step.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 362030099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "The User Enters a Email as \"AdhiR@gmail.com\"",
+            "match": {
+              "location": "src\\test\\stepDefinitions\\login.step.ts:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 64393200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "The User Enters a password as \"RAdhiA\"",
+            "match": {
+              "location": "src\\test\\stepDefinitions\\login.step.ts:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 37369199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "The User Clicks a Login Button",
+            "match": {
+              "location": "src\\test\\stepDefinitions\\login.step.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 390227600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "The User Should Be displayed With Error Message as \"Login was unsuccessful. Please correct the errors and try again.\"",
+            "match": {
+              "location": "src\\test\\stepDefinitions\\login.step.ts:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 37823200
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 6146000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login",
+            "line": 1
+          },
+          {
+            "name": "@Rishwanth",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "rishwanth_08_07_2026-login-feature-of-demo-webshop-website;to-check-login-functionality-of-demo-web-shop-with-invalid-credentials",
+        "keyword": "Scenario Outline",
+        "line": 24,
+        "name": "To Check Login Functionality of Demo Web Shop With invalid Credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 53004199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "The User is in Launch Page Of DemoWebShop Website",
+            "match": {
+              "location": "src\\test\\stepDefinitions\\register.step.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2701459000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "The User Clicks on Login Link",
+            "match": {
+              "location": "src\\test\\stepDefinitions\\login.step.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 360255999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "The User Enters a Email as \"kazama@gmail.com\"",
+            "match": {
+              "location": "src\\test\\stepDefinitions\\login.step.ts:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 36355799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "The User Enters a password as \"RishwaAdhi\"",
+            "match": {
+              "location": "src\\test\\stepDefinitions\\login.step.ts:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8772600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "The User Clicks a Login Button",
+            "match": {
+              "location": "src\\test\\stepDefinitions\\login.step.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 386420699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "The User Should Be displayed With Error Message as \"Login was unsuccessful. Please correct the errors and try again.\"",
+            "match": {
+              "location": "src\\test\\stepDefinitions\\login.step.ts:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 30526499
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 6305699
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login",
+            "line": 1
+          },
+          {
+            "name": "@Rishwanth",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "rishwanth_08_07_2026-login-feature-of-demo-webshop-website",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Rishwanth_08_07_2026 Login Feature of Demo WebShop Website",
+    "tags": [
+      {
+        "name": "@Login",
+        "line": 1
+      },
+      {
+        "name": "@Rishwanth",
+        "line": 1
+      }
+    ],
+    "uri": "src\\test\\features\\login.feature"
+  },
+  {
+    "description": "Description: As a new user,I want register an account in Demo Web Shop Website with valid Credentials",
+    "elements": [
+      {
+        "description": "",
+        "id": "rishwanth_08_07_2026-register-feature-of-demowebshop-website;to-check-the-register-functionality-with-valid-credentials",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "To Check the Register Functionality with valid Credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 49344999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "The User is in Launch Page Of DemoWebShop Website",
+            "match": {
+              "location": "src\\test\\stepDefinitions\\register.step.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2628712599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "The User Clicks on Register Link",
+            "match": {
+              "location": "src\\test\\stepDefinitions\\register.step.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 370871300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "The User Mark The Gender Radio Button",
+            "match": {
+              "location": "src\\test\\stepDefinitions\\register.step.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 72603500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "The User Enter the valid Credentials",
+            "match": {
+              "location": "src\\test\\stepDefinitions\\register.step.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 40087600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "The USer Clicks on Register Button",
+            "match": {
+              "location": "src\\test\\stepDefinitions\\register.step.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 786264100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "The User Should displayed With Register Success Text",
+            "match": {
+              "location": "src\\test\\stepDefinitions\\register.step.ts:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 26846099
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 4982499
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Register",
+            "line": 1
+          },
+          {
+            "name": "@Rishwanth",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "rishwanth_08_07_2026-register-feature-of-demowebshop-website",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Rishwanth_08_07_2026 Register Feature Of DemoWebShop Website",
+    "tags": [
+      {
+        "name": "@Register",
+        "line": 1
+      },
+      {
+        "name": "@Rishwanth",
+        "line": 1
+      }
+    ],
+    "uri": "src\\test\\features\\register.feature"
+  }
+]

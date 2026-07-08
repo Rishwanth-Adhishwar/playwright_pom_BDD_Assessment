@@ -1,0 +1,33 @@
+{
+  "name": "rishwanth_adhishwar_bdd_playwright_pom_assessment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js",
+    "register": "cucumber-js --tags @Register",
+    "rishwanth":"cucumber-js --tags @Rishwanth",
+    "login": "cucumber-js --tags @Login",
+    "parallel": "cucumber-js --parallel 2",
+    "ci": "cucumber-js --tags @smoke --format json:reports/report.json",
+    "posttest": "npx ts-node src/test/utils/report.mts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@cucumber/cucumber": "^13.0.0",
+    "@playwright/test": "^1.61.1",
+    "@types/node": "^26.1.1",
+    "cross-env": "^10.1.0",
+    "dotenv": "^17.4.2",
+    "multiple-cucumber-html-reporter": "^4.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  },
+  "dependencies": {
+    "csv-parse": "^7.0.1",
+    "winston": "^3.19.0"
+  }
+}
